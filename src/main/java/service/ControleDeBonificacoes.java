@@ -9,7 +9,7 @@ package service;
  *
  * @author Cefet
  */
-public class ControleDeBonificacoes import Funcionario{
+public class ControleDeBonificacoes{
     
     private double totalDeBonificacoes = 0;
     
