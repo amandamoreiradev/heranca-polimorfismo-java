@@ -9,6 +9,16 @@ package service;
  *
  * @author Cefet
  */
-public class ControleDeBonificacoes {
+public class ControleDeBonificacoes import Funcionario{
+    
+    private double totalDeBonificacoes = 0;
+    
+    public void registra(Funcionario f){
+    this.totalDeBonificacoes += f.getBonificacao();
+    }
+    
+    public double getTotalDeBonificacoes(){
+    return this.totaldeBonificacoes;
+    }
     
 }
