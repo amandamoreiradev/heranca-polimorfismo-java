@@ -20,8 +20,8 @@ Funcionario”?
 significa que a classe "Diretor" herda todas as características e comportamentos da classe "Gerente" e a classe "Gerente" herda todas as características e comportamentos da classe "Funcionario"
 
 2. Qual é a diferença entre super(...) e super.getBonificacao()?
-3. 
-o super(...) é default enquanto o super.getBonificacao()
+ 
+o super(...) chama diretamente um construtor da superclasse e é usado na primeira linha para inicializar o objeto, enquanto o super.getBonificacao() cahma um método específico que foi definido na superclasse e pode ser usado em qualquer linha de qualquer método do filho 
 
 4. O método registra() da classe ControleDeBonificacoes recebe um
 Funcionario. Como ele sabe qual regra de bonificação usar? Isso é decidido na
