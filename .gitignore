@@ -1,0 +1,15 @@
+# Pastas temporárias do NetBeans
+build/
+nbproject/private/
+local.properties
+nbproject/maven-eclipse.xml
+
+# Pastas de compilação do Maven
+target/
+*.class
+*.jar
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
